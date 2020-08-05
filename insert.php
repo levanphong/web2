@@ -27,7 +27,7 @@ if(isset($_SESSION['cart']) && $_SESSION['cart']!=null){
 $newProduct[$idproduct]['qty']=1;
 	$_SESSION['cart'][$idproduct]=$newProduct[$idproduct];
 }
-header('location:details.php');
+header('location:admin.php');
 	
 	
 

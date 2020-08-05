@@ -8,7 +8,7 @@ if(isset($_SESSION['cart']) && $_SESSION['cart']!=null){
 	echo "<table border='1' width='600'>";
 	echo "<tr>";
 	echo "<td>Ten san pham</td>";
-		echo "<td></td>";
+		echo "<td>So luong</td>";
 			echo "<td>Gia</td>";
 			echo"<td>Thanh tien</td>";
 						echo"<td>Xoa</td>";

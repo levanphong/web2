@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>The Aditii Website Template | Handbags :: w3layouts</title>
+<title>The Aditii Website Template | Accessories :: w3layouts</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
@@ -31,7 +31,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div class="wrap">
 	<div class="header">
 		<div class="logo">
-			<a href="index.html"><img src="images/logo.png" alt=""/> </a>
+			<a href="home.html"><img src="images/logo.png" alt=""/> </a>
 		</div>
 		<div class="h_icon">
 		<ul class="icon1 sub-icon1">
@@ -58,22 +58,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="header_sub">
 		<div class="h_menu">
 			<ul>
-				<li><a href="home.html">Home</a></li> |
+				<li><a href="index.html">Home</a></li> |
 				
-				<li class="active"><a href="handbags.php">handbags</a></li> |
-				<li><a href="accessories.html">accessories</a></li> |
-				<li><a href="wallets.html">wallets</a></li> |
+				<li><a href="handbags.html">Handbags</a></li> |
+				<li class="active"><a href="accessories.html">Accessories</a></li> |
+				<li><a href="wallets.html">Wallets</a></li> |
 				
 			</ul>
 		</div>
+		<a onclick="alert('Bạn đã đăng xuất thành công')" style="float: right;font-size: 30px" href="index.html">Logout</a>
 		<div class="top-nav">
 	          <nav class="nav">	        	
 	    	    <a href="#" id="w3-menu-trigger"> </a>
 	                  <ul class="nav-list" style="">
-	            	        <li class="nav-item"><a class="active" href="home.html">Home</a></li>
+	            	        <li class="nav-item"><a class="active" href="index.html">Trang Chủ</a></li>
 							
-							<li class="nav-item"><a href="handbags.php">Handbags</a></li>
-							<li class="nav-item"><a href="accessories.html">Accessories</a></li>
+							<li class="nav-item"><a href="handbags.html">Túi Sách</a></li>
+							<li class="nav-item"><a href="accessories.html">Phụ Kiện</a></li>
 							
 	                 </ul>
 	           </nav>
@@ -90,50 +91,38 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </div>
 </div>
 <!-- start main -->
-
-
-  <div class="main_bg">
+<div class="main_bg">
 <div class="wrap">	
 	<div class="main">
-		<h2 class="style top">featured handbags</h2>
+		<h2 class="style top">accessories</h2>
 		<!-- start grids_of_3 -->
 		<div class="grids_of_3">
 			<div class="grid1_of_3">
 				<a href="details.html">
-					<img src="images/w_pic1.jpg" alt=""/>
-					  <h3>branded handbags</h3>
+					<img src="images/pic1.jpg" alt=""/>
+					<h3>branded shoes</h3>
 					<div class="price">
-						
-						<?php  
-						require('listproduct.php');
-						foreach ($product as $listProduct) {
-						 echo "<a href='insert.php?id=".$listProduct['id']."'><h4>$299<span>indulge</span></h4>";
-						}
-						 ?>
-						
-						 
-						
-							
+						<h4>$300<span>indulge</span></h4>
 					</div>
 					<span class="b_btm"></span>
 				</a>
 			</div>
 			<div class="grid1_of_3">
 				<a href="details.html">
-					<img src="images/w_pic2.jpg" alt=""/>
-					<h3>branded handbags</h3>
+					<img src="images/pic2.jpg" alt=""/>
+					<h3>branded t-shirts</h3>
 					<div class="price">
-						<h4>$299 <span>indulge</span></h4>
+						<h4>$300<span>indulge</span></h4>
 					</div>
 					<span class="b_btm"></span>
 				</a>
 			</div>
 			<div class="grid1_of_3">
 				<a href="details.html">
-					<img src="images/w_pic3.jpg" alt=""/>
-					<h3>branded handbags</h3>
+					<img src="images/pic3.jpg" alt=""/>
+					<h3>branded tees</h3>
 					<div class="price">
-						<h4>$299<span>indulge</span></h4>
+						<h4>$300<span>indulge</span></h4>
 					</div>
 					<span class="b_btm"></span>
 				</a>
@@ -143,30 +132,30 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="grids_of_3">
 			<div class="grid1_of_3">
 				<a href="details.html">
-					<img src="images/w_pic4.jpg" alt=""/>
-					<h3>branded handbags</h3>
+					<img src="images/pic4.jpg" alt=""/>
+					<h3>branded bags</h3>
 					<div class="price">
-						<h4>$299<span>indulge</span></h4>
+						<h4>$300<span>indulge</span></h4>
 					</div>
 					<span class="b_btm"></span>
 				</a>
 			</div>
 			<div class="grid1_of_3">
 				<a href="details.html">
-					<img src="images/w_pic5.jpg" alt=""/>
-					<h3>branded handbags</h3>
+					<img src="images/pic5.jpg" alt=""/>
+					<h3>ems women bag</h3>
 					<div class="price">
-						<h4>$299<span>indulge</span></h4>
+						<h4>$300<span>indulge</span></h4>
 					</div>
 					<span class="b_btm"></span>
 				</a>
 			</div>
 			<div class="grid1_of_3">
 				<a href="details.html">
-					<img src="images/w_pic6.jpg" alt=""/>
-					<h3>branded handbags</h3>
+					<img src="images/pic6.jpg" alt=""/>
+					<h3>branded cargos</h3>
 					<div class="price">
-						<h4>$299<span>indulge</span></h4>
+						<h4>$300<span>indulge</span></h4>
 					</div>
 					<span class="b_btm"></span>
 				</a>
@@ -176,8 +165,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<!-- end grids_of_3 -->
 	</div>
 </div>
-</div>	
-
+</div>		
 <!-- start footer -->
 <div class="footer_bg">
 <div class="wrap">	
@@ -241,7 +229,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 </div>
 </div>	
-
 <!-- start footer -->
 <div class="footer_bg1">
 <div class="wrap">
@@ -271,6 +258,5 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 </div>
 </div>
-
 </body>
 </html>
